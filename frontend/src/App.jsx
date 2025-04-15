@@ -20,22 +20,11 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/landingpage", // Corrected path for LandingPage
-    element: <LandingPage />, // Ensure this points to LandingPage
+    path: "/landingpage", 
+    element: <LandingPage />, 
   },
 ]);
 
-    // path: "/",
-
-    // element: <LandingPage />,
-
-    // children: [
-    //   {
-    //     index: true,
-
-    //     element: <RegisterPage />,
-    //   },
-    // ],
 
 
 
